@@ -1,0 +1,88 @@
+.hd1{
+    margin-right: 2px;
+    float:right;
+}
+#im1{
+    width: 200px;
+    height: 200px;
+}
+input {
+    display: none;
+}
+table, th, td{
+    border: 2px solid black;
+    text-align: center;
+}
+table{
+    margin-left: 2px;
+}
+section > div {
+    display: none;
+}
+#radio-section-0:checked ~ #sec0 > div {
+    margin: 5px;
+    display: block;
+}
+#radio-section-1:checked ~ #sec1 > div {
+    margin: 5px;
+    display: block;
+}
+#radio-section-2:checked ~ #sec2 > div {
+    display: block;
+}
+#radio-section-3:checked ~ #sec3 > div {
+    display: block;
+}
+#radio-section-4:checked ~ #sec4 > div {
+    display: block;
+}
+#radio-section-5:checked ~ #sec5 > div {
+    display: block;
+}
+body{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: rgb(218, 230, 167);
+    font-size: 25px;
+}
+#sec5{
+    margin: 7px;
+    background-color: rgb(188, 175, 197);
+    font-family:cursive;
+}
+#sec0{
+    margin: 7px;
+    background-color: rgb(98, 160, 129);
+    font-family:sans-serif;
+}
+#sec1{
+    margin: 7px;
+    background-color: rgb(163, 178, 199);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#sec2{
+    margin: 7px;
+    background-color: rgb(160, 125, 142);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sec3{
+    margin: 7px;
+    background-color: rgb(118, 146, 112);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sec4{
+    margin: 7px;
+    background-color: rgb(128, 101, 101);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#sec6{
+    background-color: rgb(89, 141, 145);
+    font-family:'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+}
+#h22{
+    margin-right: 200px;
+}
