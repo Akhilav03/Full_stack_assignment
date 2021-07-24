@@ -11,7 +11,7 @@ prgm 4:
   landing_page.html+ Bg.jpg+ style2.css
   
 prgm 5:
-
+  resume.html+ style3.css+ Me.png
 
 prgm6:
 
